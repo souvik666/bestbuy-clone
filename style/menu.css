@@ -1,0 +1,34 @@
+#menubox {
+  height: 100%;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 666;
+  display: none;
+  overflow-y: scroll;
+  color: blue;
+  font-weight: bold;
+}
+
+#menubox div {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(197, 203, 213);
+  width: 85%;
+  font-size: large;
+  margin-left: 4%;
+  padding-bottom: 4%;
+}
+#firstpart {
+  border-bottom: 2px solid rgb(197, 203, 213) !important;
+  height: 50%;
+}
+#menubox p {
+  color: black;
+  margin-left: 4%;
+  height: 30px;
+  border-bottom: 1px solid rgb(197, 203, 213);
+}
+#opts{
+    font-weight: lighter;
+}
