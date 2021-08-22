@@ -1,0 +1,57 @@
+#loginbox {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 6666666;
+  right: 27%;
+  overflow-y: scroll;
+  display: none;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+#loginbox p {
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 4%;
+}
+#loginbox button {
+  margin-top: 4%;
+  height: 30px;
+  width: 150px;
+}
+
+#loginbox #asktologin :nth-child(2) {
+  background-color: rgb(5, 40, 115);
+  color: white;
+  border: 0px;
+}
+#loginbox #asktologin :nth-child(3) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 40, 115);
+  border: 0px;
+}
+#asktologin {
+  background-color: white;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  border-bottom: 1px solid rgb(197, 203, 213);
+}
+#accountinfo div {
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border-bottom: 1px solid rgb(197, 203, 213);
+  width: 100%;
+  font-size: large;
+
+  padding-bottom: 4%;
+  background-color: white;
+}
+#accountinfo {
+  background-color: white;
+}
+
+#closelogin {
+  padding-bottom: 4%;
+  color: blue;
+}

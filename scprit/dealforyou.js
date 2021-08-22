@@ -38,7 +38,7 @@ function appener() {
   price.textContent = trgt.price;
 
   let discount = document.createElement("p");
-  discount.textContent = (trgt.price.split("$").map(Number).splice(1)-100) ;
+  discount.textContent = (trgt.price.split("$").map(Number).splice(1)+100) ;
   discount.setAttribute("class", "discountprice")
 
   div.append(img, pname, rating, price, discount);

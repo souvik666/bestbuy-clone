@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="/style/main.css">
 <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/style/menu.css">
+<link rel="stylesheet" href="/style/loginbox.css">
 <title>Best Buy | Official Online</title>
 
 <head>
@@ -29,13 +30,32 @@
         <div class="opt">Credit Cards</div>
         <div class="opt">Gift Cards</div>
         <div class="opt">More <i class="fa fa-caret-down" aria-hidden="true"></i></div>
-        <div class="bld opt"><i class="fa fa-user" aria-hidden="true"></i> Account <i class="fa fa-caret-down"
-                aria-hidden="true"></i></div>
+        <div class="bld opt" id="loginbtn"><i class="fa fa-user" aria-hidden="true"></i> Account <i
+                class="fa fa-caret-down" aria-hidden="true"></i></div>
         <div class="bld opt">Recently viewed <i class="fa fa-caret-down" aria-hidden="true"></i></div>
         <div class="bld opt">Order Status <i class="fa fa-caret-down" aria-hidden="true"></i></div>
         <div class="bld opt">Saved Items <i class="fa fa-caret-down" aria-hidden="true"></i></div>
     </div>
     <!-- navbar section end -->
+
+    <div id="loginbox">
+        <div id="asktologin">
+            <p>Becoming a My Best Buy® member comes with
+                easy order tracking, rewards, offers and more.</p>
+            <button id="signmein">Signin</button>
+            <br>
+            <button id="addme">Create an Account</button>
+        </div>
+        <div id="accountinfo">
+            <div>Account</div>
+            <div>Order & purchase</div>
+            <div>Order & purchase</div>
+            <div>Order & purchase</div>
+
+        </div>
+        <div id="closelogin">× close</div>
+
+    </div>
 
     <div id="menubox">
         <div id="firstpart">
@@ -292,3 +312,5 @@
 <script src="/scprit/dealforyou.js"></script>
 <script src="/scprit/offersdatabase.js"></script>
 <script src="/scprit/menuhandeler.js"></script>
+<script src="/scprit/login.js"></script>
+<script src="/scprit/signup.js"></script>
