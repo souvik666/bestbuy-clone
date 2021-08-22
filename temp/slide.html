@@ -1,0 +1,142 @@
+<head>
+
+    <style>
+        /*     #slider2 span:nth-of-type(2) {
+            left: 98%;
+            text-align: right;
+        } */
+
+
+        #slider2 section {
+            width: 98%;
+            height: 250px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: left;
+            overflow-x: auto;
+        }
+
+        #slider2 section::-webkit-scrollbar {
+            visibility: hidden;
+        }
+
+        #slider2 section div {
+            position: relative;
+            left: 0;
+            border-radius: 5px;
+            text-align: center;
+            min-width: 180px;
+            border: 1px solid rgb(194, 188, 188);
+            margin: 10px 20px;
+            color: rgb(14, 13, 13);
+            background: rgb(179, 18, 18);
+            transition: 0.5s;
+        }
+
+        #slider2>section img {
+            height: 100px;
+            width: 100px;
+            /*  border: 1px solid black; */
+            float: left;
+            margin-left: 5%;
+        }
+
+        #slider2>section p {
+            font-size: small;
+            clear: both;
+            float: left;
+            margin-left: 5%;
+            margin-top: 6px;
+
+
+        }
+
+        #recomand {
+            border: 0px !important;
+
+
+        }
+
+        #recomand p {
+            font-size: medium !important;
+            margin-bottom: 25px;
+
+        }
+
+        #slider2>#slider2slogan {
+            font-size: medium !important;
+            float: left !important;
+            margin-top: 34px;
+            margin-right: 25px;
+            font-weight: bold;
+        }
+
+        #left {
+            height: 230px;
+            float: left;
+            top: 70;
+            width: 50px;
+            background-color: aqua;
+        }
+
+        #right {
+            height: 230px;
+            float: right;
+            top: 70;
+            width: 50px;
+            background-color: rgb(43, 255, 0);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="slider2">
+        <!-- left slider -->
+        <span id="left" onclick="slider()"></span>
+        <!-- right slider -->
+        <span id="right" onclick="slider()"></span>
+        <div id="slider2slogan">Recommended Lab Tests For You</div>
+        <!-- add and div and style the childs inide the div with your css -->
+        <section id="products">
+            <div id="recomand"></div>
+        </section>
+    </div>
+
+</body>
+<script src="showProducts.js"></script>
+<script>
+    // onclikc event for slider
+    function slider() {
+        let sapn = document.getElementById("slider2").getElementsByTagName("span")
+        let div = document.getElementById("slider2").getElementsByTagName("div")
+        let l = 0;
+        sapn[0].onclick = () => {
+            l++//for right scroll
+            for (var i of div) {
+                if (l == 0) { i.style.left = "0px" }
+                if (l == 1) { i.style.left = "-740px" }
+                /*                 if (l == 2) { i.style.left = "-1480px" }
+                 */        /*         if (l == 3) { i.style.left = "-2220px" }
+      if (l == 4) { i.style.left = "-2967px" } */
+                if (l > 3) { l = 3 }
+            }
+        }
+        sapn[1].onclick = () => {
+            l-- //for left scroll
+            for (var i of div) {
+                if (l == 0) { i.style.left = "0px" }
+                if (l == 1) { i.style.left = "-740px" }
+                /*       if (l == 2) { i.style.left = "-1480px" }
+                      if (l == 3) { i.style.left = "-2220px" } */
+
+                if (l < 0) { l = 0 }
+            }
+        }
+    }
+
+
+    //notification
+
+
+</script>
