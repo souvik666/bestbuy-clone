@@ -4,7 +4,6 @@
 }
 body {
   font-family: sans-serif !important;
-  background-color: rgb(240, 242, 244);
 }
 nav {
   height: 100px;
@@ -150,4 +149,27 @@ nav #search input {
   width: 5%;
   float: left;
   margin: 2%;
+}
+#conttoshowproduct {
+  float: left;
+  margin-top: 1px solid black;
+}
+#productimgs {
+  margin-left: 4%;
+  margin-top: 8%;
+}
+#slogan {
+  margin-left: 10%;
+  margin-top: 1%;
+  font-size: small;
+  color: blue;
+}
+
+#cartoptionsandall {
+  float: left;
+  height: 400px;
+  background-color: blue;
+  width: 500px;
+  margin-top: 6%;
+  overflow-y: auto;
 }
