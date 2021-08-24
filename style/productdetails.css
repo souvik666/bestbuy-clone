@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif !important;
+  background-color: rgb(240, 242, 244);
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: #0147be;
+  border-bottom: 1px solid rgb(73, 118, 230);
+}
+nav img {
+  height: 38%;
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+}
+
+.menu {
+  cursor: pointer;
+  float: left;
+  margin-top: 2.5%;
+  margin-left: 2%;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;
+  transition: 0.4s;
+  margin-left: 10%;
+}
+
+nav p {
+  float: left;
+  margin-top: 3%;
+  margin-left: 1%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+#btn {
+  padding-right: 20%;
+}
+
+nav #search input {
+  border: 0px;
+  width: 40%;
+  height: 40px;
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+  border-radius: 7px;
+  margin-right: 1%;
+}
+
+#searchbar {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-top: 2.5%;
+  cursor: pointer;
+}
+
+#cartlogo {
+  position: absolute;
+  right: 60;
+  top: 30;
+  font-size: 30px;
+  padding-right: 1%;
+  color: white;
+}
+#alice {
+  position: absolute;
+  right: 200;
+  top: 30;
+  font-size: 30px;
+  padding-right: 1%;
+  color: white;
+}
+
+#menusection {
+  background-color: #0147be;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(11, auto);
+  grid-gap: 0%;
+  padding-left: 1%;
+}
+#menusection div {
+  margin-top: 5%;
+  color: white;
+  font-size: small;
+}
+#Firstcont {
+  background-color: rgb(240, 242, 244);
+  height: 600px;
+}
+
+.bld {
+  font-weight: bolder;
+}
+.fas {
+  font-weight: lighter;
+}
+#conttoshowproduct {
+  margin-top: 6%;
+}
+
+#brand {
+  margin-left: 4%;
+  color: rgb(5, 40, 115);
+  font-weight: bold;
+  margin-bottom: 0.3%;
+}
+
+#productname {
+  margin-left: 4%;
+  font-size: large;
+}
+
+#model {
+  margin-top: 1%;
+  margin-left: 4%;
+  font-weight: bold;
+}
+.checked {
+  color: orange;
+}
+
+#startrating {
+  margin-left: 4%;
+  margin-top: 1%;
+}
+#metainfo {
+  margin-left: 1%;
+  font-size: small;
+  color: #0147be;
+}
+#productimg {
+  margin-left: 4%;
+  margin-top: 2%;
+}
+#productimgs img {
+  width: 5%;
+  float: left;
+  margin: 2%;
+}

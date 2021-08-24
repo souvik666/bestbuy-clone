@@ -63,7 +63,9 @@ function appendpro() {
 appendpro();
 
 function showdetails(el) {
-  console.log(el);
+  let data = el;
+  localStorage.setItem("productdetails", JSON.stringify(data));
+  window.location.href = `prodcutdetails.html`;
 }
 
 ghost.underlineme("bns");
