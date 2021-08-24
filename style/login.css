@@ -36,7 +36,7 @@ nav div {
   height: 35px;
   width: 85%;
   margin-left: 7.5%;
-  margin-top: 10%;
+  margin-top: 2%;
   border: 1px solid rgb(197, 203, 213);
   padding: 3%;
   border-radius: 3px;
@@ -50,13 +50,12 @@ nav div {
 }
 a {
   font-size: x-small !important;
-
 }
 #chkbox {
   margin-left: 9%;
   margin-top: 8%;
 }
-#signup {
+#loginbtn {
   height: 35px;
   width: 85%;
   margin-left: 7.5%;
@@ -84,4 +83,14 @@ a {
   text-align: center;
   margin-top: 2%;
 }
+#frg {
+  width: 85%;
+  margin-left: 7.5% !important;
+  margin-top: 2%;
+}
 
+#showpass {
+  margin-top: 4%;
+  float: right;
+  margin-right: 7.5%;
+}

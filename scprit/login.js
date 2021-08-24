@@ -12,6 +12,10 @@ ghost.getsoulID(`signmein`).on("click", function () {
   window.location.href = "login.html";
 });
 
-ghost.getsoulID(`addme`).on('click', function(){
-    window.location.href = "signup.html"
-})
+ghost.getsoulID(`addme`).on("click", function () {
+  window.location.href = "signup.html";
+});
+
+//validation
+
+
