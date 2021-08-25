@@ -391,3 +391,13 @@ nav #search input {
 #suggestedproduct img {
   margin-bottom: 2%;
 }
+#noofitem {
+  font-size: 10px;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border-radius: 50%;
+}

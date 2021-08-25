@@ -1,0 +1,102 @@
+#cartpopup {
+  width: 700px;
+  background-color: white;
+  position: absolute;
+  z-index: 666666;
+  top: 40%;
+  left: 20%;
+  display: none;
+  border-radius: 4px;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+#showmyitems {
+  float: left;
+  width: 50%;
+  margin-top: 5%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2%;
+}
+#myrpoductimg div {
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+#myrpoductimg img {
+  float: left;
+}
+#mainimg {
+  height: 50px;
+  width: 50px;
+  margin-left: 4%;
+}
+
+#gotocartbtn {
+  float: right;
+  margin-top: 5%;
+  margin-right: 6%;
+}
+#cartsubtotal {
+  margin-bottom: 2%;
+  font-size: small;
+}
+
+#gotocart {
+  margin-top: 2%;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(2, 68, 183);
+  border: 0px;
+  color: white;
+}
+
+#first img {
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+#first :nth-child(2) {
+  font-weight: bolder;
+  font-size: x-large;
+  width: 75%;
+  margin-top: 4%;
+}
+#first :nth-child(3) {
+  font-weight: normal;
+  font-size: x-small;
+  width: 75%;
+  margin-top: 4%;
+}
+#first :nth-child(4) {
+  font-size: x-small;
+  width: 25%;
+  font-weight: lighter;
+  margin-top: 4%;
+}
+#first p {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+#carsoul img {
+  width: 90%;
+  float: left;
+  margin-top: 6%;
+  padding-right: 20%;
+  margin-bottom: 6%;
+}
+#secondpart {
+  display: grid;
+  grid-template-areas: "a b";
+  grid-template-columns: 60% auto;
+}
+#productnames {
+  height: 20px;
+  font-size: normal;
+  color: rgb(57, 90, 7);
+}
+#closebtn {
+  float: right;
+  font-size: xx-large;
+  font-weight: bolder;
+}

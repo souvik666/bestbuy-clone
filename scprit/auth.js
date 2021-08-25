@@ -35,7 +35,6 @@ function checkstatus() {
     document.getElementById("signmein").style.display = "none";
     document.getElementById("addme").style.display = "none";
     document.getElementById(`signout`).style.display = "block";
-    localStorage.setItem("cart", JSON.stringify(["yes working"]));
   }
 }
 checkstatus();
@@ -89,3 +88,4 @@ function handelusercart() {
   localStorage.setItem("cart", JSON.stringify(cart));
   localStorage.setItem(`alluser`, JSON.stringify(newdata));
 }
+

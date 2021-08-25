@@ -36,8 +36,8 @@ triger.addEventListener(`click`, function () {
   };
   if (validation()) {
     addusertolocalstrogae(data);
-    localStorage.setItem("cart", []);
-    window.location.href = 'success.html'
+    localStorage.setItem("cart", JSON.stringify([]));
+    window.location.href = "success.html";
   } else {
     alert(`invalid attempt`);
   }

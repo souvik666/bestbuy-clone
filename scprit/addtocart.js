@@ -10,8 +10,9 @@ function cartfun(el) {
     alert(`please login`);
     setTimeout(function () {
       window.location.href = "login.html";
-    },2000);
+    }, 2000);
   } else if (status === true) {
+    //
     let arr;
     arr = localStorage.getItem("cart");
     if (arr === null) {
@@ -20,6 +21,8 @@ function cartfun(el) {
       arr = JSON.parse(localStorage.getItem("cart"));
     }
     arr.push(el);
-    localStorage.setItem("cart", JSON.stringify(arr));
+    localStorage.setItem("cart", JSON.stringify((arr)));
+    document.getElementById("cartpopup").style.display = "block";
   }
 }
+
