@@ -23,6 +23,15 @@ function appener() {
   let data = JSON.parse(localStorage.getItem("Products"));
   let div = document.createElement("div");
   div.setAttribute("id", "imgbox");
+  div.addEventListener("click", function () {
+    let addme = JSON.parse(localStorage.getItem(`Products`));
+
+    localStorage.setItem(
+      `productdetails`,
+      JSON.stringify(addme[addme.length - 3])
+    );
+    window.location.href = "/pages/prodcutdetails.html";
+  });
   let trgt = data[data.length - 3];
   let img = document.createElement("img");
   img.src = trgt.img[0];
@@ -38,8 +47,8 @@ function appener() {
   price.textContent = trgt.price;
 
   let discount = document.createElement("p");
-  discount.textContent = (trgt.price.split("$").map(Number).splice(1)+100) ;
-  discount.setAttribute("class", "discountprice")
+  discount.textContent = trgt.price.split("$").map(Number).splice(1) + 100;
+  discount.setAttribute("class", "discountprice");
 
   div.append(img, pname, rating, price, discount);
   maindiv.append(div);

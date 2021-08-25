@@ -37,6 +37,11 @@
 <!-- navbar section -->
 
 <body>
+
+    <!-- cart popup
+ -->
+
+ 
     <div id="conttoshowproduct">
         <p id="brand">brand</p>
         <p id="productname">24" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Blue
@@ -143,9 +148,48 @@
             <p id="learnmore">learn more</p>
         </div>
         <div id="getit">Get it today nearby</div>
+        <div id="pickup">
+            <div> <i class="fa fa-location-arrow" aria-hidden="true"></i> <span> <strong>Pickup:</strong> Order now for
+                    pickup on
+                    Mon, Sep 6 at Aiea
+
+                    Available today at a location 6 miles away
+
+                    See all pickup locations</span>
+            </div>
+        </div>
+        <br>
+        <div id="del">
+
+            <i class="fa fa-car" aria-hidden="true"></i> <span> <strong>Shipping</strong>: Unavailable in your area
+
+                This item is only available in certain markets.
+
+                <a href="#">Estimates for 96939</a>
+            </span>
+        </div>
+        <button id="addtocart">🛒 Add to Cart</i>
+
+        </button>
 
     </div>
+    <div id="suggestedproduct">
+        <div id="suggestion">People ultimately bought </div>
+        <div id="probopx">
+
+        </div>
+    </div>
+    </div>
 </body>
+<br>
+<footer>
+    <div id="footer">
+        <p>Get the latest deals and more.</p>
+        <input type="text"> <button>Sign up</button>
+        <div></div>
+        <div>Best Buy App</div>
+    </div>
+</footer>
 <script>
     let tmp = document.getElementById(`productimgs`).getElementsByTagName(`img`)
     for (let i = 0; i < tmp.length; i++) {
@@ -161,3 +205,4 @@
     }
 </script>
 <script src="/scprit/handlproductdetails.js"></script>
+<script src="/scprit/addtocart.js"></script>

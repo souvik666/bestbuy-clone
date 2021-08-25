@@ -76,6 +76,10 @@ function secondsliderinhomephae() {
   let data = JSON.parse(localStorage.getItem("Products"));
   data.forEach(function (el) {
     let div = document.createElement("div");
+    div.addEventListener("click", function () {
+      localStorage.setItem("productdetails", JSON.stringify(el));
+      window.location.href = "prodcutdetails.html";
+    });
     let pnme = document.createElement("p");
     pnme.innerHTML = el.name.split(" ").slice(0, 4);
     pnme.setAttribute("class", "fepname");

@@ -97,6 +97,10 @@ function appendreleted(d) {
   let maindiv = document.getElementById(`relatedpro`);
   data.forEach(function (el) {
     let div = document.createElement("div");
+    div.addEventListener("click", function () {
+      localStorage.setItem("productdetails", JSON.stringify(el));
+      window.location.href = "prodcutdetails.html";
+    });
     let pname = document.createElement(`p`);
     pname.innerHTML = el.name.split(" ").slice(0, 7);
     let img = document.createElement("img");
@@ -115,47 +119,53 @@ function appendreleted(d) {
 appendreleted(JSON.parse(localStorage.getItem(`Products`)));
 
 function appendlikedd(d) {
-    let data = d;
-    let maindiv = document.getElementById(`likedalso`);
-    data.forEach(function (el) {
-      let div = document.createElement("div");
-      let pname = document.createElement(`p`);
-      pname.innerHTML = el.name.split(" ").slice(0, 7);
-      let img = document.createElement("img");
-      img.src = el.img[0];
-      /*   let rating = document.createElement("img");
+  let data = d;
+  let maindiv = document.getElementById(`likedalso`);
+  data.forEach(function (el) {
+    let div = document.createElement("div");
+    div.addEventListener("click", function () {
+      localStorage.setItem("productdetails", JSON.stringify(el));
+      window.location.href = "prodcutdetails.html";
+    });
+    let pname = document.createElement(`p`);
+    pname.innerHTML = el.name.split(" ").slice(0, 7);
+    let img = document.createElement("img");
+    img.src = el.img[0];
+    /*   let rating = document.createElement("img");
       rating.src = `https://image.shutterstock.com/image-vector/stars-rating-icon-four-golden-260nw-1729995094.jpg`;
       rating.setAttribute("class", "reerating") */ let price = document.createElement(
-        "p"
-      );
-      price.setAttribute("id", "relatedpro");
-      price.innerHTML = el.price;
-      div.append(img, pname, price);
-      maindiv.append(div);
+      "p"
+    );
+    price.setAttribute("id", "relatedpro");
+    price.innerHTML = el.price;
+    div.append(img, pname, price);
+    maindiv.append(div);
+  });
+}
+appendlikedd(JSON.parse(localStorage.getItem(`Products`)));
+
+function appendFeatured(d) {
+  let data = d;
+  let maindiv = document.getElementById(`Featuredss`);
+  data.forEach(function (el) {
+    let div = document.createElement("div");
+    div.addEventListener("click", function () {
+      localStorage.setItem("productdetails", JSON.stringify(el));
+      window.location.href = "prodcutdetails.html";
     });
-  }
-  appendlikedd(JSON.parse(localStorage.getItem(`Products`)))
-
-
-
-  function appendFeatured(d) {
-    let data = d;
-    let maindiv = document.getElementById(`Featuredss`);
-    data.forEach(function (el) {
-      let div = document.createElement("div");
-      let pname = document.createElement(`p`);
-      pname.innerHTML = el.name.split(" ").slice(0, 7);
-      let img = document.createElement("img");
-      img.src = el.img[0];
-      /*   let rating = document.createElement("img");
+    let pname = document.createElement(`p`);
+    pname.innerHTML = el.name.split(" ").slice(0, 7);
+    let img = document.createElement("img");
+    img.src = el.img[0];
+    /*   let rating = document.createElement("img");
       rating.src = `https://image.shutterstock.com/image-vector/stars-rating-icon-four-golden-260nw-1729995094.jpg`;
       rating.setAttribute("class", "reerating") */ let price = document.createElement(
-        "p"
-      );
-      price.setAttribute("id", "relatedpro");
-      price.innerHTML = el.price;
-      div.append(img, pname, price);
-      maindiv.append(div);
-    });
-  }
-appendFeatured(JSON.parse(localStorage.getItem('Products')))
+      "p"
+    );
+    price.setAttribute("id", "relatedpro");
+    price.innerHTML = el.price;
+    div.append(img, pname, price);
+    maindiv.append(div);
+  });
+}
+appendFeatured(JSON.parse(localStorage.getItem("Products")));
