@@ -145,6 +145,10 @@ nav #search input {
   margin-left: 4%;
   margin-top: 2%;
 }
+#productimg img {
+  width: 70%;
+  margin-top: 2%;
+}
 #productimgs img {
   width: 5%;
   float: left;
@@ -168,8 +172,130 @@ nav #search input {
 #cartoptionsandall {
   float: left;
   height: 400px;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   width: 500px;
   margin-top: 6%;
   overflow-y: auto;
+}
+#cartoptionsandall::-webkit-scrollbar {
+  display: none;
+}
+#doller {
+  height: 30px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  font-size: 10px;
+}
+
+#pricemathc {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+#price {
+  display: grid;
+  grid-template-columns: 200px 30px 150px;
+}
+/* #pricewithoutdis {
+  border-right: 1px solid blue;
+} */
+/* #svaem {
+  height: 30px;
+  background-color: red;
+  width: 30px;
+} */
+#sloganpattern {
+  float: left;
+  margin-left: 1%;
+}
+#sloganpattern {
+  height: 20px;
+  background-color: rgb(188, 50, 40);
+  margin-right: 2%;
+  text-align: center;
+  padding: 1%;
+  border-radius: 2px;
+  color: white;
+}
+
+#productprice {
+  font-size: x-large;
+  font-weight: bolder;
+}
+#was {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+#emaicost {
+  font-size: x-large;
+  font-weight: bolder;
+}
+#or {
+  font-weight: lighter;
+}
+
+#metainfosome {
+  font-weight: lighter;
+  font-size: smaller;
+}
+#finance {
+  font-size: smaller;
+  font-weight: bolder;
+}
+#showmehow {
+  font-size: smaller;
+  color: #0147be;
+}
+#delevery {
+  margin-top: 4%;
+  height: 70px;
+  background-color: rgb(244, 246, 249);
+  width: 350px;
+  padding: 4%;
+}
+#delslogan {
+  font-weight: bolder;
+  font-size: small;
+}
+#learnmore {
+  font-weight: lighter;
+  font-size: small;
+}
+#rewd {
+  font-weight: lighter;
+  font-size: small;
+}
+
+#config {
+  height: 30px;
+  border-bottom: 1px solid rgb(197, 203, 213);
+  border-top: 1px solid rgb(197, 203, 213);
+  padding-top: 2%;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#protectionprice {
+  font-size: small;
+}
+
+#learnmore {
+  margin-top: 2%;
+  color: #0147be;
+}
+
+#chkbx {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#getit {
+  color: green;
+  font-size: small;
+  margin-top: 2%;
 }
