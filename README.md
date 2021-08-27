@@ -19,5 +19,6 @@
  7. Counting product qnty
  8. showing product details dynamically
  9. hover to see product img on product details page
+ 10. user will see their cart according to them after then login again after logout
 
 **Thank you**
