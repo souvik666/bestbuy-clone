@@ -1,4 +1,4 @@
-**Hey this is souvik dutta this is a small attempt by me to build bestbuy clone** 
+**Hey this is souvik dutta this is a small attempt by me to build bestbuy clone with pure javascprit html css** 
 
 # Different parts of my project
 
