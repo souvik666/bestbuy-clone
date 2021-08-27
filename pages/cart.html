@@ -95,7 +95,14 @@
 <!-- footer end -->
 <script src="/scprit/showcartpro.js"></script>
 <script>
-document.getElementById('chkout').addEventListener('click', function(){
-    window.location.href = "checkout.html"
-})
+    document.getElementById('chkout').addEventListener('click', function () {
+        window.location.href = "checkout.html"
+    })
+
+    let data = JSON.parse(localStorage.getItem(`cart`))
+    document.getElementById(`noofitem`).innerHTML = data.length
+
+    document.getElementById(`logo`).addEventListener("click", function () {
+        window.location.href = "index.html"
+    })
 </script>
