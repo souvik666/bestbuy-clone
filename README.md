@@ -1,14 +1,6 @@
 **👋 Hey this is souvik dutta this is a small attempt by me to build bestbuy clone which is  an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.** 
 
-***someparts of the ui***
 
-![enter image description here](https://i.ibb.co/X2ZKfLY/Screenshot-2021-08-27-16-10-25.png)
-
-
-![enter image description here](https://i.ibb.co/SQpDcrx/Screenshot-2021-08-27-16-11-23.png)
-
-
-![enter image description here](https://i.ibb.co/9tt4ZSm/Screenshot-2021-08-27-16-13-04.png)
 # Different parts of my project
 
  1. Homepage
@@ -31,3 +23,15 @@
 
 **Thank you**
 [ghostQuery](https://github.com/souvik666/ghostQuery)
+
+
+
+***someparts of the ui***
+
+![enter image description here](https://i.ibb.co/X2ZKfLY/Screenshot-2021-08-27-16-10-25.png)
+
+
+![enter image description here](https://i.ibb.co/SQpDcrx/Screenshot-2021-08-27-16-11-23.png)
+
+
+![enter image description here](https://i.ibb.co/9tt4ZSm/Screenshot-2021-08-27-16-13-04.png)
