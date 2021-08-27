@@ -20,6 +20,6 @@
  8. showing product details dynamically
  9. hover to see product img on product details page
  10. user will see their cart according to them after then login again after logout
- 11. I have also used my own library([ghostQuery](https://github.com/souvik666/ghostQuery)) in a minimal ammount 
+ 11. I have also used my own library([ghostQuery](https://github.com/souvik666/ghostQuery)) in a minimal amount 
 
 **Thank you**
