@@ -100,3 +100,6 @@ function secondsliderinhomephae() {
   });
 }
 secondsliderinhomephae();
+
+let hold = JSON.parse(localStorage.getItem("cart"));
+document.getElementById(`noofitem`).innerHTML = hold.length;

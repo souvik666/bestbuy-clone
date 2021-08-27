@@ -329,8 +329,8 @@ nav #search input {
   height: 3% !important;
   position: absolute;
   z-index: 666;
-  left: 58.7%;
-  top: 103%;
+  left: 58%;
+  top: 100%;
 }
 
 .pricedeal {
@@ -500,6 +500,7 @@ nav #search input {
 
 #myslider2 section p {
   font-size: small;
+  text-align: center;
 }
 
 #myslider2 span div {
@@ -524,13 +525,10 @@ nav #search input {
   color: rgb(0, 0, 0);
   text-align: left;
   margin-left: 4%;
-  margin-top: 20%;
 }
 .ferating {
   height: 30px !important;
   width: 30px !important;
-  position: absolute;
-  left: 4;
 }
 .fediscountprice {
   text-align: left;

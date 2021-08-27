@@ -33,8 +33,10 @@ function appendproductdetails() {
 
   //emi
   let emaicost = document.getElementById(`emaicost`);
-  let numprice = Number(dataset.price.split("").splice(1, dataset.price.length).join(""));
-  emaicost.innerText = "$"+(numprice/12 | 0)+`/mo.*`;
+  let numprice = Number(
+    dataset.price.split("").splice(1, dataset.price.length).join("")
+  );
+  emaicost.innerText = "$" + ((numprice / 12) | 0) + `/mo.*`;
 }
 appendproductdetails();
 
@@ -83,3 +85,5 @@ function appendsuggestion(d) {
   });
 }
 appendsuggestion(JSON.parse(localStorage.getItem("suggestion")));
+let ssubtotl = JSON.parse(localStorage.getItem(`cartsum`));
+document.getElementById(`cartsubtotal`).innerHTML = `cart subtotal $ ${ssubtotl}`;

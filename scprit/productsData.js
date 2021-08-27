@@ -58,7 +58,7 @@ let Prodata = [
   {
     name: `ASUS - ROG Zephyrus 14" Gaming Laptop - AMD Ryzen 9 - 16GB Memory - NVIDIA GeForce RTX 3060 - 1TB SSD - Moonlight White - Moonlight White`,
     brand: `ASUS `,
-    price: `$1,549.99`,
+    price: `$1549.99`,
     model: `Model:GA401QM-211.ZG14SKU:6452913 `,
     img: [
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452913_sd.jpg;maxHeight=640;maxWidth=550",
@@ -91,7 +91,7 @@ let Prodata = [
   {
     name: `24" iMac® with Retina 4.5K display - Apple M1 - 8GB Memory - 256GB SSD (Latest Model) - Blue`,
     brand: `Apple`,
-    price: `$1,299.99`,
+    price: `$1299.99`,
     model: `Model:MJV93LL/ASKU:6450916`,
     img: [
       "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6450/6450916_sd.jpg;maxHeight=640;maxWidth=550",

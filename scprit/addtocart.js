@@ -21,7 +21,7 @@ function cartfun(el) {
       arr = JSON.parse(localStorage.getItem("cart"));
     }
     arr.push(el);
-    localStorage.setItem("cart", JSON.stringify((arr)));
+    localStorage.setItem("cart", JSON.stringify(arr));
     document.getElementById("cartpopup").style.display = "block";
   }
 }

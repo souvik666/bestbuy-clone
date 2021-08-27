@@ -75,11 +75,27 @@
             <div style="clear: both; height: 10px;"></div>
             <div id="total">
                 <p>Total</p>
-                <span>$2,094.20
+                <span id="originalprice">$2,094.20
                 </span>
-                <button>Checkout</button>
+                <button id="chkout">Checkout</button>
             </div>
         </div>
     </div>
 </body>
+<!-- footer
+ -->
+<footer>
+    <div id="footer">
+        <p>Get the latest deals and more.</p>
+        <input type="text"> <button>Sign up</button>
+        <div></div>
+        <div>Best Buy App</div>
+    </div>
+</footer>
+<!-- footer end -->
 <script src="/scprit/showcartpro.js"></script>
+<script>
+document.getElementById('chkout').addEventListener('click', function(){
+    window.location.href = "checkout.html"
+})
+</script>

@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(1, 71, 190);
+}
+
+nav img {
+  width: 5%;
+  margin-top: 2%;
+  float: left;
+  margin-left: 2%;
+}
+nav div {
+  position: absolute;
+  left: 10%;
+  top: 3%;
+  font-size: xx-large;
+  color: white;
+}
+nav p {
+  float: right;
+  margin-top: 3%;
+  font-size: large;
+  color: white;
+  margin-right: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196f3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+#totalpricebar {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  right: 10;
+  top: 120px;
+}
+#totalpricebar :nth-child(1) {
+  margin-top: 1%;
+  text-align: center;
+  font-weight: bold;
+}
+#totalpricebar :nth-child(2) {
+  text-align: center;
+  margin-top: 4%;
+  font-size: larger;
+}
+
+#totalpricebar :nth-child(3) {
+  text-align: center;
+  margin-top: 10%;
+  font-size: larger;
+  font-weight: bolder
+}

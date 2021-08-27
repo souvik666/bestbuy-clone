@@ -196,3 +196,41 @@ nav #search input {
   font-weight: bolder;
   font-size: large;
 }
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(1, 71, 190);
+  
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+#footer input {
+  height: 30px;
+  margin-top: 40px;
+  border-radius: 4px;
+  border: 0px;
+}
+#footer button {
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 4%;
+  width: 80px;
+  background-color: yellow;
+  color: black;
+  border: 0px;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#footer :nth-child(1) {
+  color: yellow;
+  margin-top: 40px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#footer :nth-child(5) {
+  color: yellow;
+  margin-top: 40px;
+  font-size: x-large;
+  font-weight: bolder;
+}
