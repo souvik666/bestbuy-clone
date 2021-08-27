@@ -11,7 +11,7 @@
 ## Functionalities,i have used
 
  1. Login & signup based on localstorage 
- 2. Add to cart
+ 2. Add to cart also remove from cart
  3. Handling multiple users and users cart
  4. Email phone validation with regex
  5. Tracking users login status
