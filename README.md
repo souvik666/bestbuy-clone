@@ -1,5 +1,14 @@
-**Hey this is souvik dutta this is a small attempt by me to build bestbuy clone with pure javascprit html css** 
+**👋 Hey this is souvik dutta this is a small attempt by me to build bestbuy clone which is  an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.** 
 
+***someparts of the ui***
+
+![enter image description here](https://i.ibb.co/X2ZKfLY/Screenshot-2021-08-27-16-10-25.png)
+
+
+![enter image description here](https://i.ibb.co/SQpDcrx/Screenshot-2021-08-27-16-11-23.png)
+
+
+![enter image description here](https://i.ibb.co/9tt4ZSm/Screenshot-2021-08-27-16-13-04.png)
 # Different parts of my project
 
  1. Homepage
@@ -11,7 +20,7 @@
 ## Functionalities,i have used
 
  1. Login & signup based on localstorage 
- 2. Add to cart also remove from cart
+ 2. Add to cart
  3. Handling multiple users and users cart
  4. Email phone validation with regex
  5. Tracking users login status
@@ -19,7 +28,6 @@
  7. Counting product qnty
  8. showing product details dynamically
  9. hover to see product img on product details page
- 10. user will see their cart according to them after then login again after logout
- 11. I have also used my own library([ghostQuery](https://github.com/souvik666/ghostQuery)) in a minimal amount 
 
 **Thank you**
+[ghostQuery](https://github.com/souvik666/ghostQuery)
